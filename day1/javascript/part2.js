@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const input = fs.readFileSync('./day1.input').toString()
+const input = fs.readFileSync('../day1.input').toString()
 const inputArr = input.split("\n").map((e) => parseInt(e));
 
 const chunk = 3;
